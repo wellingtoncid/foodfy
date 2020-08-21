@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wellingtoncid/launchstore?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wellingtoncid/foodfy?color=%2304D361">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/wellingtoncid/foodfy">
 
@@ -38,7 +38,7 @@
  <a href="#-tecnologias">Tecnologias</a> • 
  <a href="#-contribuidores">Contribuidores</a> • 
  <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#user-content--licença">Licença</a> • 
  <a href="#-english-version">English version</a>
 </p>
 
@@ -133,10 +133,11 @@ $ npm install
 psql -U <username> -c "CREATE DATABASE foodfydb"
 psql -U <username> -d foodfy -f foodfydb.sql
 
-Você pode importar manualmente o foodfydb.sql para o Postbird, lembre-se de criar um novo banco de dados com o nome foodfydb.
+Você pode importar manualmente o foodfydb.sql para o Postbird, lembre-se de criar um novo 
+banco de dados com o nome foodfydb.
 - Importante!
 Você deve alterar o db.js, localizado em src/config para configurar a conexão com o PostgreSQL.
-Também deve alterar o mailer.js, em src/lib para conectar às configurações do Mailtrap.
+Também deve alterar o mailer.js, em src/lib para configurar a conexão com o Mailtrap.
 
 # Preencha a aplicação com dados utilizando o Faker.js
 node seed.js
@@ -164,13 +165,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[NodeMailer](https://nodemailer.com)**   
 -   **[Faker](https://github.com/marak/Faker.js/)**
 
-> Veja o arquivo  [package.json](https://github.com/wellingtoncid/foodfy/blob/master/package.json)
+> Vide arquivo  [package.json](https://github.com/wellingtoncid/foodfy/blob/master/package.json)
 
 #### [](https://github.com/wellingtoncid/launchbase#utilit%C3%A1rios)**Utilitários**
 
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
 -   Animação:  **[Lottie](https://github.com/airbnb/lottie-web)**
--   Fontes:  **[Roboto](https://fonts.google.com/specimen/Roboto)** **[Material icons](https://material.io)** 
+-   Fontes:  **[Roboto](https://fonts.google.com/specimen/Roboto)**, **[Material icons](https://material.io)** 
 
 
 ---
@@ -198,7 +199,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://linkedin.com/in/wellingtoncid/">
  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/18754691?s=460&u=09c04df1369e272974644e2da576101759417f77&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Wellington Cid</b></sub></a> <a href="https://linkedin.com/in/wellingtoncid/" title="Rocketseat">🚀</a>
+ <sub><b>Wellington Cid</b></sub></a> <a href="https://linkedin.com/in/wellingtoncid/" title="WellingtonCid">🚀</a>
  <br />
 
 [![Twitter Badge](https://img.shields.io/badge/-@wellingtoncid-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/wellingtoncid)](https://twitter.com/wellingtoncid) [![Linkedin Badge](https://img.shields.io/badge/-WellingtonCid-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wellingtoncid/)](https://www.linkedin.com/in/wellingtoncid/) 
@@ -216,4 +217,4 @@ Feito com ❤️ por Wellington Cid 👋🏽 [Entre em contato!](https://www.lin
 
 ##  English Version
 
-[Português 🇧🇷](./README.md)  |  [English 🇺🇸](./README-en.md) 
+[English 🇺🇸](./README-en.md)  |  [Português 🇧🇷](./README.md) 
