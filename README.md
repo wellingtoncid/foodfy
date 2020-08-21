@@ -5,7 +5,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/wellingtoncid/foodfy">
 
   <a href="https://www.twitter.com/wellingtoncid/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fwellingtoncid%2Ffoodfy">
+    <img alt="Follow Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fwellingtoncid%2Ffoodfy">
   </a>
   
   <a href="https://github.com/wellingtoncid/README/commits/master">
@@ -18,7 +18,7 @@
   </a>
 
   <a href="https://linkedin.com/in/wellingtoncid">
-    <img alt="Feito por Wellington Cid" src="https://img.shields.io/badge/feito%20por-Wellington_Cid-%237519C1">
+    <img alt="Made by Wellington Cid" src="https://img.shields.io/badge/made%20by-Wellington_Cid-%237519C1">
   </a>    
  
 </p>
@@ -27,58 +27,57 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Concluído: Desafio final do LauchBase Bootcamp 🚀 🚧
+	🚧  Finished: Final challenge LauchBase Bootcamp 🚀 🚧
 </h4>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-about">About</a> •
+ <a href="#-features">Features</a> •
  <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-contribuidores">Contribuidores</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a> • 
- <a href="#-english-version">English version</a>
+ <a href="#-how-it-works">How it works</a> • 
+ <a href="#-tech-stack">Tech Stack</a> • 
+ <a href="#-contributors">Contributors</a> • 
+ <a href="#-author">Author</a> • 
+ <a href="#user-content--license">License</a> • 
+ <a href="#-versao-em-portugues">Versão em Portugês</a>
 </p>
 
 
-## 💻 Sobre o projeto
+## 💻 About
 
-Foodfy - é uma sistema para gerenciamento de receitas, uma forma de conectar chefs, receitas e amantes de uma boa refeição feitas de forma artenasal, com as prórias mãos na massa.
+Foodfy - is a system for managing recipes, a way to connect chefs, recipes and lovers of a good meal made in an artenasal way, with their own hands-on experience.
 
-Projeto desenvolvido durante o Bootcamp **LaunchBase** da [Rocketseat](https://blog.rocketseat.com.br/).
-O LaunchBase é um treinamento no formato de bootcamp online que tem duração de 8 semanas com muito conteúdo prático, desafios e hacks para evoluir o desenvolvimento web para o próximo nível.
+Project developed during Bootcamp **LaunchBase** by [Rocketseat](https://blog.rocketseat.com.br/).
+LaunchBase is an online bootcamp training that lasts 8 weeks with lots of practical content, challenges and hacks to take web development to the next level.
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️ Features
 
-- [x] O administrador tem acesso total a plataforma, onde pode:
-  - [x] criar, visualizar, editar ou apagar chefs, usuários e receitas
-  - [x] cadastrar novos administradores
-  - [x] ao cadastrar chefs e usuários, adicionar:
-    - Nome e email do chef ou usuário
+- [x] The administrator has full access to the platform, where he can:
+  - [x] create, view, edit or delete chefs, users and recipes
+  - [x] register new administrators
+  - [x] when registering chefs and users, add:
+    - Name or email of the chef or user
     - Avatar
-    - Enviar senha criptografada através do email cadastrado
+    - Send encrypted password via registered email
 
-- [x] Os usuários cadastrados tem acesso exclusivo a aplicação, onde podem:
-  - [x] navegar pelo site para visualizar as receitas e chefs cadastradas
-  - [x] cadastrar receitas e atribuí-las aos seus respectivos chefs
-  - [x] cadastrar uma nova senha de acesso, caso tenha esquecido 
-  - [x] ao cadastrar uma nova receita, o usuário pode
-    - Adicionar até 5 imagens da receita no formato png, jpg, ou jpeg
-    - Escolher um chef
-    - Título da receita
-    - Descrição completa dos ingredientes
-    - Descrição completa passo a passo do modo de preparo
-    - Descrição de informações adicionais sobre a receita
+- [x] Registered users have exclusive access to the application, where they can:
+  - [x] browse the site to view the recipes and registered chefs
+  - [x] register recipes and assign them to their respective chefs
+  - [x] register a new password, in case you have forgotten
+  - [x] when registering a new recipe, the user can
+    - Add up to 5 images of the recipe in png, jpg, or jpeg format
+    - Choosing a chef
+    - Title of the recipe
+    - Full description of the ingredients
+    - Complete step-by-step description of the method of preparation
+    - Description of additional revenue information
 
-- [x] Qualquer usuário amante da culinária pode:
-  - [x] navegar pelo site para visualizar as receitas cadastradas
-  - [x] visualizar os detalhes das receitas e seus respectivos chefs
-  - [x] ocultar ou mostrar detalhes, tais como, ingredientes, modo de preparo e informações adicionais
-  
+- [x] Any culinary user can:
+  - [x] browse the site to view the registered recipes
+  - [x] view the details of the recipes and their respective chefs
+  - [x] hide or show details, such as ingredients, preparation method and additional information
 
 ---
 
@@ -107,56 +106,55 @@ O LaunchBase é um treinamento no formato de bootcamp online que tem duração d
 
 ---
 
-## 🚀 Como executar o projeto
+## 🚀 How it works
 
-### Pré-requisitos
+### Prerequisites
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Before you begin, you will need to have the following tools installed on your machine:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [PostgreSQL](https://www.postgresql.org/download/), [Postbird](https://www.electronjs.org/apps/postbird). 
-Além disto é bom ter um editor para trabalhar com o código, como por exemplo o [VSCode](https://code.visualstudio.com/).
+In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/).
 
 
-#### 🧭 Rodando a aplicação
+#### 🧭 Running the application
 
 ```bash
 
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/wellingtoncid/foodfy.git
 
-# Acesse a pasta do projeto no seu terminal/cmd
+# Access the project folder cmd/terminal
 $ cd foodfy
 
-# Instale as dependências
+# install the dependencies
 $ npm install
 
-#Configure o banco de dados
+#Set up the database
 psql -U <username> -c "CREATE DATABASE foodfydb"
 psql -U <username> -d foodfy -f foodfydb.sql
 
-Você pode importar manualmente o foodfydb.sql para o Postbird, lembre-se de criar um novo 
-banco de dados com o nome foodfydb.
-- Importante!
-Você deve alterar o db.js, localizado em src/config para configurar a conexão com o PostgreSQL.
-Também deve alterar o mailer.js, em src/lib para configurar a conexão com o Mailtrap.
+You can manually import the foodfy.sql to Postbird, remember to create a new database with the name foodfydb.
+- Important!
+You have to alter the db.js, located in src/config to match your PostgreSQL settings.
+You also have to alter the mailer.js, located in src/lib to match your Mailtrap settings.
 
-# Preencha a aplicação com dados utilizando o Faker.js
+# Populate it with Faker.js
 node seed.js
 
--Atenção: 
-A senha de usuário Faker é "1234", é preciso verificar as configurações de cada usuário no Postbird.
+-Attention:
+The Faker user password is "1234", you need to check each users settings on Postbird.
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application in development mode
 $ npm run start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# The application will open on the port: 3000 - go to http://localhost:3000
 
 ```
 
 ---
 
-## 🛠 Tecnologias
+## 🛠 Tech Stack
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in the construction of the project:
 
 #### [](https://github.com/wellingtoncid/foodfy#server-nodejs)**Website/Server** ([Javascript](https://javascript.com)) ([NodeJS](https://nodejs.org/en/))
 -   **[Express](https://expressjs.com/)**
@@ -165,18 +163,18 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[NodeMailer](https://nodemailer.com)**   
 -   **[Faker](https://github.com/marak/Faker.js/)**
 
-> Vide arquivo  [package.json](https://github.com/wellingtoncid/foodfy/blob/master/package.json)
+> See file [package.json](https://github.com/wellingtoncid/foodfy/blob/master/package.json)
 
-#### [](https://github.com/wellingtoncid/launchbase#utilit%C3%A1rios)**Utilitários**
+#### [](https://github.com/wellingtoncid/launchbase#utilit%C3%A1rios)**Utilities**
 
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
--   Animação:  **[Lottie](https://github.com/airbnb/lottie-web)**
--   Fontes:  **[Roboto](https://fonts.google.com/specimen/Roboto)**, **[Material icons](https://material.io)** 
+-   Animation:  **[Lottie](https://github.com/airbnb/lottie-web)**
+-   Fonts:  **[Roboto](https://fonts.google.com/specimen/Roboto)**, **[Material icons](https://material.io)** 
 
 
 ---
 
-## 👨‍💻 Contribuidores
+## 👨‍💻 Contributors
 
 <table>
   <tr>
@@ -184,17 +182,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
   </tr>
 </table>
 
-## 💪 Como contribuir para o projeto
+## 💪 How to contribute
 
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+1. **Fork** the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
+4. Submit your changes: `git push origin my-feature`
+> If you have any questions check this [guid on how to contribute in GitHub](./CONTRIBUTING.md)
 
 ---
 
-## 🦸 Autor
+## 🦸 Author
 
 <a href="https://linkedin.com/in/wellingtoncid/">
  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/18754691?s=460&u=09c04df1369e272974644e2da576101759417f77&v=4" width="100px;" alt=""/>
@@ -207,14 +205,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 📝 Licença
+## 📝 License
 
-Este projeto esta sob a licença [MIT](./LICENSE).
+This project is under the license [MIT](./LICENSE).
 
-Feito com ❤️ por Wellington Cid 👋🏽 [Entre em contato!](https://www.linkedin.com/in/wellingtoncid/)
+Made with ❤️ by Wellington Cid 👋🏽 [Get in touch!](https://www.linkedin.com/in/wellingtoncid/)
 
 ---
 
-##  English Version
+##  Versão em Português
 
-[English 🇺🇸](./README-en.md)  |  [Português 🇧🇷](./README.md) 
+[Português 🇧🇷](./README-ptbr.md)   |  [English 🇺🇸](./README.md)
