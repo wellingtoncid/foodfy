@@ -18,7 +18,7 @@
   </a>
 
   <a href="https://linkedin.com/in/wellingtoncid">
-    <img alt="Made by Wellington Cid" src="https://img.shields.io/badge/feito%20por-Wellington_Cid-%237519C1">
+    <img alt="Made by Wellington Cid" src="https://img.shields.io/badge/made%20by-Wellington_Cid-%237519C1">
   </a>    
  
 </p>
