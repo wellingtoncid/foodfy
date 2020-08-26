@@ -39,7 +39,7 @@
  <a href="#-contributors">Contributors</a> • 
  <a href="#-author">Author</a> • 
  <a href="#user-content--license">License</a> • 
- <a href="#-versao-em-portugues">Versão em Portugês</a>
+ <a href="#versao-em-portugues">Versão em Portugês</a>
 </p>
 
 

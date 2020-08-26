@@ -39,7 +39,7 @@
  <a href="#-contribuidores">Contribuidores</a> • 
  <a href="#-autor">Autor</a> • 
  <a href="#user-content--licença">Licença</a> • 
- <a href="#-english-version">English version</a>
+ <a href="#english-version">English version</a>
 </p>
 
 
