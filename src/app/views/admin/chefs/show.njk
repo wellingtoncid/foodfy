@@ -1,4 +1,4 @@
-{% extends 'admin/layout.njk' %}
+{% extends '../layout.njk' %}
 
 {% block head %}
   <title>{{recipe.title}}</title>
@@ -25,7 +25,8 @@
         {% if chef.total_recipes > 1 %}{{chef.total_recipes}} receitas cadastradas{% endif %}
       </p>
     </div>
-
     {% include '../parts/recipes-list.njk' %}
+
+    </div>
   </div>
 {% endblock %}

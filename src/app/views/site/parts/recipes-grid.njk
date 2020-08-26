@@ -13,7 +13,7 @@
       <div class="recipe-img">
         <a href='/recipes/recipe/{{recipe.id}}'>
           {% if not recipe.file%}
-          <img src="http://placehold.it/500x500?text=PRODUTO SEM FOTO">
+          <img src="http://placehold.it/500x500?text=RECEITA_SEM_FOTO">
           {% else %}
           <img src="{{recipe.file.path}}" alt="" class="Image de {{recipe.title}}">
           {%endif%}
