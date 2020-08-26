@@ -217,4 +217,4 @@ Feito com ❤️ por Wellington Cid 👋🏽 [Entre em contato!](https://www.lin
 
 ##  English Version
 
-[English 🇺🇸](./README.md)  |  [Português 🇧🇷](./README-ptbr.md) 
+[English 🇺🇸](./README.md)
