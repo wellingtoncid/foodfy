@@ -39,7 +39,7 @@
  <a href="#-contributors">Contributors</a> • 
  <a href="#-author">Author</a> • 
  <a href="#user-content--license">License</a> • 
- <a href="#versao-em-portugues">Versão em Português</a>
+ <a href="#versão-em-português">Versão em Português</a>
 </p>
 
 
@@ -213,6 +213,6 @@ Made with ❤️ by Wellington Cid 👋🏽 [Get in touch!](https://www.linkedin
 
 ---
 
-## [Versão em Português](versao-em-portugues)
+## Versão em Português
 
 [Português 🇧🇷](./README-ptbr.md)
