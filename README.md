@@ -213,6 +213,6 @@ Made with ❤️ by Wellington Cid 👋🏽 [Get in touch!](https://www.linkedin
 
 ---
 
-## Versão em Português
+## [Versão em Português](versao-em-portugues)
 
-Clique aqui para ver a versão em [Português 🇧🇷](./README-ptbr.md)
+[Português 🇧🇷](./README-ptbr.md)
